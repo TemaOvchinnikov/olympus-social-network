@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@olympus/posts": ["libs/posts/src/index.ts"]
+      "@olympus/posts": ["libs/posts/src/index.ts"],
+      "@olympus/prisma": ["prisma/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
