@@ -3,7 +3,6 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { PostsController, PostsService } from '@olympus/posts';
-//import { PrismaModule } from '../../../../prisma/prisma.module';
 import { PrismaModule } from '@olympus/prisma';
 
 @Module({

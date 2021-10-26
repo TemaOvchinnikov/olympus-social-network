@@ -11,7 +11,8 @@
   },
   "private": true,
   "prisma": {
-    "seed": "ts-node prisma/seed.ts"
+    "seed": "ts-node libs/prisma/src/lib/seed.ts",
+    "schema": "./libs/prisma/src/lib/schema.prisma"
   },
   "dependencies": {
     "@angular/animations": "^12.2.0",
